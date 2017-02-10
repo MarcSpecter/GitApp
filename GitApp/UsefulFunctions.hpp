@@ -12,6 +12,6 @@
 #include <stdio.h>
 
 void convert(const char* in, wchar_t* out);
-
+void greet(const char* greeting);
 
 #endif /* UsefulFunctions_hpp */
