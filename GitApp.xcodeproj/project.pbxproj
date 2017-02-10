@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B04953181E4BF20D00DB7A87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B04953171E4BF20D00DB7A87 /* main.cpp */; };
+		B0FAC2F01E4C947E009163AE /* UsefulFunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0FAC2EE1E4C947E009163AE /* UsefulFunctions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		B04953141E4BF20D00DB7A87 /* GitApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GitApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04953171E4BF20D00DB7A87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B0FAC2EE1E4C947E009163AE /* UsefulFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UsefulFunctions.cpp; sourceTree = "<group>"; };
+		B0FAC2EF1E4C947E009163AE /* UsefulFunctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UsefulFunctions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				B04953171E4BF20D00DB7A87 /* main.cpp */,
+				B0FAC2EE1E4C947E009163AE /* UsefulFunctions.cpp */,
+				B0FAC2EF1E4C947E009163AE /* UsefulFunctions.hpp */,
 			);
 			path = GitApp;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04953181E4BF20D00DB7A87 /* main.cpp in Sources */,
+				B0FAC2F01E4C947E009163AE /* UsefulFunctions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +222,7 @@
 		B049531C1E4BF20D00DB7A87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -223,6 +230,7 @@
 		B049531D1E4BF20D00DB7A87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -246,6 +254,7 @@
 				B049531D1E4BF20D00DB7A87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
