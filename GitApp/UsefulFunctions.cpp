@@ -18,5 +18,5 @@ void convert(const char* in, wchar_t* out){
 }
 void greet(const char* greeting){
     
-    printf("Hello from greet function\n");
+    printf("Hello from greet function with this information:%s\n",greeting);
 }
